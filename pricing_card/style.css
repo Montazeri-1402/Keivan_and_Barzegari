@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  border:none;
+  list-style:none;
+  text-decoration:none;
+  font-family: 'Mulish', sans-serif;
+  
+}
+
+body{
+  background-color:#f0f0f0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  
+}
+
+.box{
+  width:321px;
+  height:750px;
+  background:#121331;
+  border-radius:20px;
+  position:relative;
+  padding-left:107px;
+  margin-right:50px;
+  color:#fff;
+  transform:scale(0.95);
+
+
+  
+  h3{
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+    
+
+
+    margin-top:68px;
+    margin-bottom:10px;
+    
+  }
+  
+  
+  .subhead{
+
+
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+
+
+
+color: gray;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+  }
+  
+  h1{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 65px;
+  margin-top:35px;
+  margin-bottom:90px;   
+  }
+  
+  ul{
+    margin-bottom:150px;
+  }
+  
+  li{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    display:flex;
+    align-items:center;
+
+
+
+    
+    i{
+      margin-right:17px;
+      font-size:26px;
+    }
+
+  }
+  .btn{
+
+    width:318px;
+    height:59px;
+    background:#fff;
+    transform:translateX(-50px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+
+    cursor:pointer;
+
+
+color: #121331;
+    border-radius:29.5px;
+    
+  }
+}
+
+  
+  .dark{
+    background:#121331;
+    color:#fff;
+    margin-left:0;
+    
+    .btn{
+      background:#fff;
+      color:#202842;
+     
+    }
+    
+  
+    
+    .subhead{
+      color: gray;
+      font-weight:400;
+      font-size:18px;
+    }
+    
+    ul{
+      margin-bottom:50px;
+    }
+    
+    li{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    display:flex;
+    align-items:center;
+
+
+
+    
+    i{
+      margin-right:17px;
+
+      font-size:26px;
+     
+      
+    }
+
+  }
+  }
+
+
+.box .btn:hover{
+
+ transition:0.3s;
+ box-shadow:0 0 3px 3px #ffffff40;
+  
+}
+
+.btnb:hover{
+  background-color: black;
+  color: #f0f0f0;
+}
+
+.dark .btn:hover{
+   transition:0.3s;
+ box-shadow:0 0 3px 3px #ffffff40;
+}
+
+.btnd:hover{
+  background-color: black;
+  color: #f0f0f0;
+}
